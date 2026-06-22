@@ -1,0 +1,31 @@
+
+/* === Large Screens and Up (≥992px) === */
+@media (min-width: 992px) {
+  .nav-link {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+/* === Medium Screens and Below (≤992px) === */
+@media (max-width: 992px) {
+  .navbar-expand-lg .navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .nav-item .nav-link {
+    padding: 0.4rem !important;
+  }
+}
+
+/* === Small Screens and Below (≤768px) === */
+@media (max-width: 768px) {
+  .navbar-clone {
+    top: 0 !important;
+  }
+
+  .sticky-wrapper {
+    position: relative !important;
+  }
+}
